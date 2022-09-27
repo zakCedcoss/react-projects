@@ -14,13 +14,14 @@ button {
     outline: none;
     background: none;
     padding: 1rem;
-    border: 1px solid black;
+    margin-inline: 0.5rem;
+    border: 1px solid rebeccapurple;
     border-radius: 10px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: black;
+    background-color: rebeccapurple;
     color: white;
 }
 
