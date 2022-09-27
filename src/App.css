@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar {
+    /* background-color: aqua; */
+    width: 300px;
+    padding: 0.5rem;
+}
+.sidebar-tabs {
+    /* background-color: #2795c0; */
+    /* transform: translateX(-300px); */
+    transition: transform 0.5s ease;
+}
+.sidebar-tabs h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.tabs li {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.move {
+    transform: translateX(-300px)
+}
